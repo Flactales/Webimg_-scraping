@@ -6,9 +6,7 @@ from requests.compat import urljoin
 from bs4 import BeautifulSoup
 
 #   画像を抽出したいURLをリストに格納
-URLS = ["http://www.tano-c.net/release/tcplus-0027/",
-        "http://aranmusic.net/tcslcd-0004/",
-        "http://www.tano-c.net/release/tcplus-0029/"]
+URLS = [""]
 
 #   URLの個数だけ繰り返す
 for i in range(len(URLS)):
